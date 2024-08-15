@@ -1,10 +1,5 @@
-import Amadeus from "amadeus";
+import { amadeus } from "@/lib/amadeus.js";
 import { NextResponse } from "next/server";
-
-const amadeus = new Amadeus({
-  clientId: process.env.AMADEUS_API_KEY,
-  clientSecret: process.env.AMADEUS_API_SECRET,
-});
 
 export async function GET(request) {
   const { searchParams } = new URL(request.url);

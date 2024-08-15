@@ -1,7 +1,9 @@
-import React from "react";
+"use client";
+import { useRouter } from "next/navigation";
 
 const page = () => {
-  return <div>Account</div>;
+  const router = useRouter();
+  router.push("/account/profile");
+  return <div>redirecting...</div>;
 };
-
 export default page;

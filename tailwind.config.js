@@ -6,19 +6,6 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    // fontFamily: {
-    //   iransnas: {
-    //     thin: ["IRANSansWeb", "sans-serif"],
-    //     ultralight: ["IRANSansWeb", "sans-serif"],
-    //     light: ["IRANSansWeb", "sans-serif"],
-    //     regular: ["IRANSansWeb", "sans-serif"],
-    //     medium: ["IRANSansWeb", "sans-serif"],
-    //     demibold: ["IRANSansWeb", "sans-serif"],
-    //     bold: ["IRANSansWeb", "sans-serif"],
-    //     extrabold: ["IRANSansWeb", "sans-serif"],
-    //     black: ["IRANSansWeb", "sans-serif"],
-    //   }
-    // },
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -27,12 +14,13 @@ module.exports = {
       },
       colors: {
         main: "#1D91CC",
+        white: "#FFFFFF",
         tint: {
           1: "#E8F4FA",
           2: "#D2E9F5",
           3: "#BBDEF0",
-          4: "A5D3EB",
-          5: "77BDE0",
+          4: "#A5D3EB",
+          5: "#77BDE0",
         },
         shade: {
           1: "#1774A3",
@@ -67,6 +55,7 @@ module.exports = {
           light1: "#F4B740",
           light2: "#FFF8E1",
         },
+        link: "#0077DB",
       },
     },
   },
